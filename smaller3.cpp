@@ -20,9 +20,9 @@ int main() {
   cout << "Enter the third number: ";
   int num3;
   cin >> num3;
-  if(num1 < num2 && num3){
+  if(num1 < num2 && num1 < num3){
     cout << "The smallest of the three is " << num1;
-  } else if(num2 < num1 && num3){
+  } else if(num2 < num1 && num2 < num3){
     cout << "The smallest of the three is " << num2;
   } else{
     cout << "The smallest of the three is " << num3;
